@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <Button
+        android:id="@+id/neibu"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="内部类" />
+
+    <Button
+        android:id="@+id/waibu"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="外部类" />
+
+    <Button
+        android:id="@+id/niming"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="匿名内部类" />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="Activity" />
+
+    <Button
+        android:id="@+id/bangding"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="绑定到标签" />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
